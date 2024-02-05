@@ -8,6 +8,9 @@ function search(arr, value) {
         if (arr[i] == value) {
             console.log(`${value} index ${i}`);
         }
+        else{
+             console.log("element is a not exist");
+        }
 
     }
 
